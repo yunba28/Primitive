@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Src\main.cpp" />
+    <ClCompile Include="Src\boot_processor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\game_processor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\level_processor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\result_processor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\title_processor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\player.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\player_armor_gauge.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\player_bullet.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\player_move.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\player_shot.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\control_slow_time.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\enemy_act_army.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\enemy_act_artillery.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\enemy_act_base.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\enemy_act_curve.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\enemy_act_rain.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\enemy_bullet_circle.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\enemy_bullet_laser.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\enemy_spawn_order.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\enemy_spawner.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\button.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\drawer.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\fps_viewer.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\game_score_viewer.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gameover_dialog.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\gauge.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\menu_dialog.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\text.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\time_counter.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\bullet_base.cpp">
+      <Filter>bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\bullet_commander.cpp">
+      <Filter>bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\effect_bomb.cpp">
+      <Filter>UI\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\effect_hit.cpp">
+      <Filter>UI\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\enemy.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\font.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\game_score.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\input.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\rose_collider_view.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\scene_to_scene_connect.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\screen_shaker.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\currency_format.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\debug_viewer.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\button_widget.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\key_config_processor.cpp">
+      <Filter>processor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\key_config_input.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\sound_manager.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\text_ex.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\game_utility.hpp" />
+    <ClInclude Include="Src\boot_processor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\game_processor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\level_processor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\result_processor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\title_processor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\player.hpp">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\player_armor_gauge.hpp">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\player_bullet.hpp">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\player_move.hpp">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\player_shot.hpp">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\control_slow_time.hpp">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\enemy_act_army.hpp">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\enemy_act_artillery.hpp">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\enemy_act_base.hpp">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\enemy_act_curve.hpp">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\enemy_act_rain.hpp">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\enemy_bullet_circle.hpp">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\enemy_bullet_laser.hpp">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\enemy_spawn_order.hpp">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\enemy_spawner.hpp">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\button.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\drawer.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\fps_viewer.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\game_score_viewer.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\gameover_dialog.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\gauge.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\menu_dialog.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\text.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\time_counter.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\bullet_base.hpp">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\bullet_commander.hpp">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\effect.hpp">
+      <Filter>UI\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\effect_bomb.hpp">
+      <Filter>UI\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\effect_hit.hpp">
+      <Filter>UI\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\enemy.hpp">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\font.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\game_score.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\input.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\interval.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\rose_collider_view.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\scene_to_scene_connect.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\screen_shaker.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\currency_format.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\debug_viewer.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\button_widget.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\key_config_processor.hpp">
+      <Filter>processor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\key_config_input.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\sound_manager.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\selectable.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\text_ex.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="processor">
+      <UniqueIdentifier>{e8139a95-c960-4d98-836c-f6b1ddcb8bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{26d2c8d2-e13b-4047-8a2c-e1491e387e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemy">
+      <UniqueIdentifier>{b9efc844-a8c7-4591-b2b2-97151648be69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{2ac38726-de75-4ea7-9569-6aab164a5f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bullet">
+      <UniqueIdentifier>{5860c0ca-62a9-4558-83b6-29aa46bd0a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\effect">
+      <UniqueIdentifier>{5f67938e-ab72-4d3a-88bc-676d8a208a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{4700fe5b-c134-4fbd-a09f-e30243fca4cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
